@@ -22,7 +22,7 @@
 <body>
     <div id="app">
         @include('inc.navbar')
-        <main class="container py-2">
+        <main>
             @yield('content')
         </main>
     </div>
